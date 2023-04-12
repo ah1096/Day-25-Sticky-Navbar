@@ -119,3 +119,16 @@ body {
     line-height: 30px;
     letter-spacing: 1px;
 }
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; /* Adds 10px of space between each card */
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid rgb(84, 166, 84);
+    padding: 10px;
+    text-align: center;
+}
