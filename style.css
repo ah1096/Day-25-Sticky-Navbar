@@ -128,7 +128,16 @@ body {
 
 .card {
     background-color: #fff;
-    border: 1px solid rgb(84, 166, 84);
+    border: 3px solid rgb(84, 166, 84);
+    border-radius: 15px;
     padding: 10px;
     text-align: center;
+}
+
+.card h2 {
+    background-color: rgb(84, 166, 84);
+}
+
+.characterimg {
+    height:200px;
 }
