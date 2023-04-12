@@ -1,0 +1,16 @@
+This is a website created as part of the 50 Projects in 50 Days course by Brad Traversy on Udemy.
+
+Day 25's assignment was to create a sticky navbar. The base project is accurate to Brad's tutorial,
+but the rest is my own.
+
+I chose the greenhouse hero image because I thought it was pretty, but I didn't feel like theming a website
+around a greenhouse or botanical garden. Instead, I opted to make a silly webpage about a community
+of creatures in a decaying greenhouse that vanquished the interfering gardener and claimed the greenhouse
+as their own.
+
+I used ChatGPT (https://chat.openai.com/chat) to generate the story using the following prompt:
+
+"Write a 400-word-long short story set in a greenhouse about how a mushroom, a frog, and a mouse defeat 
+the human invader (the gardener) of their home. The defeat and death of the gardener results in their 
+dead body being left to decay in the greenhouse, and for years after the greenhouse is reclaimed by 
+nature and the plants growing within it run rampant over the skeleton of the gardener." 
