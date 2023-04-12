@@ -2,20 +2,67 @@
 
 * {
     box-sizing: border-box;
-        /* if padding is added, width is not affected */
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: Montserrat;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-        /* aligns all elements on the page vertically */
-    align-items: center;
-        /* centers the column in the middle of page */
-    justify-content:center;
-    height: 100vh;
-    overflow:hidden;
-        /* hides scroll bars */
+    color: #222;
+    padding-bottom: 50px;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* @todo Nav */
+
+.hero {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/734/773/135/abandoned-greenhouse-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: -2;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.hero h1 {
+    font-size: 20px;
+    margin: -20px 0 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.content h2, .content h3 {
+    font-size: 150%;
+    margin: 10px 0;
+}
+
+.content p {
+    color: 555;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
